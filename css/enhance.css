@@ -1,0 +1,169 @@
+#white_top{
+  height: 15px;
+}
+
+#wrapper{
+  width: 500px;
+  background-color: #1D7D88;
+}
+
+#head{
+  width: 428px;
+  background-color: green;
+  margin: auto;
+}
+  #head h2{
+    text-align: center;
+  }
+
+#madeby{
+  width: 428px;
+  height: 14px;
+  margin: auto;
+  position: relative;
+  top: -10px;
+}
+  #madeby h4{
+    text-align: right;
+  }
+
+#top{
+  width: 428px;
+  height: 280px;
+  background-color: #1D7D88;
+  margin: auto;
+}
+  #centered{
+    color: #59D84B;
+    position: absolute;
+    top: 232px;
+    left: 272px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: -0.6px;
+  }
+  #button1, #button2{
+    border: 2px #C4BC97 solid;
+    background: #086368;
+    height: 30px;
+    width: 99px;
+    color: white;
+  }
+  #multiple{
+    height: 30px;
+    width: 85px;
+    text-align: center;
+  }
+  #isdoll{
+    height: 15px;
+  }
+
+#used{
+  width: 430px;
+  margin: auto;
+  background-color: yellow;
+}
+
+#used_table{
+  border: 1px black solid;
+  text-align: center;
+  background-color: #1D7D88;
+}
+  #used_table tr.head{
+    font-weight: bold;
+    color: white;
+    font-size: 12.4px;
+    text-align: center;
+    width: 107px;
+  }
+
+  #used_table td{
+    width: 107px;
+  }
+
+  #used_table tr.body{
+    color: white;
+  }
+
+
+#log{
+  width: 428px;
+  margin: auto;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+#log_head{
+  border-bottom: 1px black solid;
+  text-align: center;
+  background-color: #1D7D88;
+}
+  #log_head tr{
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+  }
+    #log_head tr .col1{
+      width:85px;
+    }
+    #log_head tr .col2{
+      width:85px;
+    }
+    #log_head tr .col3{
+      width:85px;
+    }
+    #log_head tr .col4{
+      width:85px;
+    }
+    #log_head tr .col5{
+      width:85px;
+    }
+
+#log_display{
+  overflow-x: hidden;
+  overflow-y:scroll;
+  width: 428px;
+  height: 280px;
+}
+
+#log_table{
+  width: 428px;
+  text-align: center;
+  background-color: #1D7D88;
+  color: white;
+  font-size: 13px;
+  height: 280px;
+}
+  #log_table tr{
+    height: 28px;
+  }
+  #log_table tr .col1{
+    width:85px;
+  }
+  #log_table tr .col2{
+    width:85px;
+  }
+  #log_table tr .col3{
+    width:85px;
+  }
+  #log_table tr .col4{
+    width:85px;
+  }
+  #log_table tr .col5{
+    width:85px;
+  }
+
+#maximum{
+  width: 428px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 7px;
+}
+
+#white_bottom{
+  height: 20px;
+}

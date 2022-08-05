@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>제2의나라 강화시뮬레이터 </title>
+  <link rel="stylesheet" href="./css/enhance.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="white_top"></div>
+    <div id="head">
+      <h2>제2의나라 강화 시뮬레이터 V1.0</h2>
+    </div>
+    <div id="madeby">
+      <h4> made by 눈부신비은 </h4>
+       <!-- Referenced by https://github.com/solarias/dnf -->
+    </div>
+
+    <div id="top">
+      <img src="./images/equipment.png" alt="">
+      <text id="centered">+0</text>
+      <input id="button1" type="button" value="1회 강화" />
+      <input id="button2" type="button" value="일괄 강화" />
+      <select id="multiple">
+        <option selected disabled>횟수 선택</option>
+        <option value="10"> 10회 </option>
+        <option value="20"> 20회 </option>
+        <option value="30"> 30회 </option>
+        <option value="40"> 40회 </option>
+        <option value="50"> 50회 </option>
+        <option value="60"> 60회 </option>
+        <option value="70"> 70회 </option>
+        <option value="80"> 80회 </option>
+        <option value="90"> 90회 </option>
+        <option value="100"> 100회 </option>
+      </select>
+      <input id="isdoll" type="checkbox"> 액막이 사용
+    </div>
+
+    <div id="used">
+      <table id="used_table">
+        <tr class="head">
+          <td class="col1">
+            <img src="./images/low.png" width=30px alt=""> 하급 강화석
+          </td>
+          <td class="col2">
+            <img src="./images/middle.png" width=30px alt=""> 중급 강화석
+          </td>
+          <td class="col3">
+            <img src="./images/high.png" width=30px alt=""> 고급 강화석
+          </td>
+          <td class="col4">
+            <img src="./images/doll.png" width=30px alt="">
+            액막이 인형
+          </td>
+        </tr>
+        <tr class="body">
+          <td id="low_stone">0</td>
+          <td id="middle_stone">0</td>
+          <td id="high_stone">0</td>
+          <td id="used_doll">0</td>
+        </tr>
+      </table>
+    </div>
+    <div id="log">
+      <div id="log_head">
+        <table>
+          <tr>
+            <td class="col1">회차 </td>
+            <td class="col2">현재 등급 </td>
+            <td class="col3">강화 후 등급</td>
+            <td class="col4">확률 </td>
+            <td class="col5">결과 </td>
+          </tr>
+        </table>
+    </div>
+    <div id="log_display">
+      <table id="log_table"></table>
+    </div>
+  </div>
+  <div id="maximum">
+    최대 강화:
+    <span id="max_count">0</span> 회차 /
+    <span id="max_enhance">0</span> 강 / (30강 도달 횟수:
+    <span id="num_thirty">0</span> 회)
+  </div>
+  <div id="white_bottom">
+  </div>
+  <script type="text/javascript", src="./js/enhance.js"></script>
+</body>
+</html>
